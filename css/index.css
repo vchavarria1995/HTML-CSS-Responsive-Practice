@@ -66,6 +66,7 @@ a{
 h1, h2, h3{
     font-family: 'Oxygen', sans-serif;
     color:#266035;
+    text-align:center;
 }
 h1{
     color:#FBFFFB;
@@ -84,7 +85,9 @@ button{
     font-family:'Source Sans Pro', sans-serif;
     color:#FBFFFB;
 }
-
+section{
+    padding:4% 0;
+}
 /*Header Section Styles*/
 nav{
     display:flex;
@@ -133,4 +136,55 @@ nav{
 #top button:hover{
     color:#FBFFFB;
     background-color:#266035;
+}
+/*About Section Styles*/
+#about{
+    height:80vh;
+    background-image:url('../images/about-img.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+#about .txt{
+    width:25%;
+    margin-right:10%;
+}
+
+/*Shop Section Styles*/
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.shoptxt, .bgimg{
+    width:50%;
+}
+.shoptxt{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:6% 4%;
+    text-align:center;
+}
+.shoptxt div{
+    width:65%;
+}
+.shoptxt div button{
+    margin-top:5%;
+}
+.bgimg{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.succulents{
+    background-image:url('../images/succulants.jpg');
+}
+.cacti{
+    background-image:url('../images/cacti.jpg');
+}
+.tropicals{
+    background-image:url('../images/tropicals.jpg')
 }
